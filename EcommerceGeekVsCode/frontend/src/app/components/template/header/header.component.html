@@ -1,0 +1,57 @@
+<mat-toolbar class="header mat-elevation-z4">
+    <span>
+        <a routerLink="/">
+            <img class="logo" src="assets/img/logo5.png" alt="logo">
+        </a>
+    </span>
+    <span class="title-group">
+        <a routerLink="{{ routeUrl }}">
+            <i class="material-icons">
+                {{ icon }}
+            </i>
+            {{ title }}
+        </a>
+    </span>
+    <span class="search">
+
+    </span>
+    <span class="example-spacer"></span>
+
+    <div class="header-col">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-whatsapp"></i></a> 
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>            
+        </div>
+    </div>    
+
+</mat-toolbar>
+
+<mat-toolbar-row class="header-second">
+    <span class="title-group">
+        <a routerLink="{{ routeUrl }}">
+            <i class="material-icons">
+                menu
+            </i>
+            Por categoria
+        </a>
+    </span>
+
+    <div class="header-row">
+        <ul>
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Nossos servicos</a></li>
+            <li><a href="#">Divulge meu producto</a></li>            
+        </ul>
+    </div>  
+    
+    <span class="example-spacer"></span>    
+
+    <!--<button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button> <!-->
+</mat-toolbar-row>
+
